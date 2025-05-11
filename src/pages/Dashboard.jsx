@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Dashboard.css';
 import ProductDropdown from '../components/ProductDropdown';
 
@@ -15,7 +16,7 @@ const Dashboard = () => {
       </header>
       <main className="dashboard-main">
       <div className="dashboard-section">⚙️ مدیریت اطلاعات پایه</div>
-        <div className="dashboard-section">🌱 مدیریت محصولات</div>
+        <div className="dashboard-section"><Link to="/ ProductDropdown">🌱 مدیریت محصولات</Link></div>
         <div className="dashboard-section">⚙️  مدیریت کاربران</div>
         <div className="dashboard-section">⚙️  مدیریت کارگران</div>
         <div className="dashboard-section">💧 آبیاری هوشمند</div>
