@@ -1,0 +1,71 @@
+.home-wrapper {
+    height: 100vh;
+    background: linear-gradient(to right, #e0f7ec, #f9fff9);
+    background-image: url('../assets/images/nature-light-3.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Vazirmatn', sans-serif;
+    position: relative;
+  }
+  
+  .home-overlay {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .home-title {
+    font-size: 2.8rem;
+    color: #2d6a4f;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .home-subtitle {
+    font-size: 1.2rem;
+    color: #52796f;
+    margin-bottom: 30px;
+  }
+  
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .home-btn,
+  .home-btn-outline {
+    padding: 12px 26px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .home-btn {
+    background-color: #2d6a4f;
+    color: white;
+  }
+  
+  .home-btn:hover {
+    background-color: #1b4332;
+  }
+  
+  .home-btn-outline {
+    border: 2px solid #2d6a4f;
+    color: #2d6a4f;
+    background: transparent;
+  }
+  
+  .home-btn-outline:hover {
+    background-color: #2d6a4f;
+    color: white;
+  }
+  
